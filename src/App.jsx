@@ -13,7 +13,7 @@ const App = () => {
         <Route path="/chat/ai" Component={ChatAiPage} />
         <Route path="/about" Component={About} />
         <Route path="/cekkodam" Component={CekKodam} />
-        <Route path="/form" Component={FormCekkodam} />
+        <Route path="/nama" Component={FormCekkodam} />
       </Routes>
     </div>
   );
