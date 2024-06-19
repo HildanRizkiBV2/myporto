@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins";
+  padding: 0;
+}
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+.app .content {
+  margin: 0;
+  position: absolute;
+  top: 180px;
+  left: 60px;
+}
+span {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #5903a8;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+span:hover {
+  color: #ff4f81;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.text-berjalan span {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+#particles canvas {
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.navbar {
+  color: #5903a8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  height: 60px;
+}
+.navbar h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.navbar .menu ul li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.navbar .menu ul li a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #5903a8;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.menu ul li a:hover {
+  color: #ff4f81;
+  scale: 2;
+  transition: 0.3s;
+}
+.buletan {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 180px;
+  right: 50px;
+}
+.buletan:hover {
+  cursor: pointer;
+}
+.buletan img {
+  height: 300px;
+  width: 300px;
+}
+.buletan p {
+  color: #5903a8;
+  position: absolute;
+  display: none;
+  top: 210px;
+  left: 110px;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.buletan:hover p {
+  display: block;
+}
+.container {
+  min-height: 100vh;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+.container p {
+  margin: 0;
+  padding: 0;
+}
+.container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-content .content {
+  height: 80vh;
+  width: 90%;
+  border: 1px black solid;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search input {
+  width: 78%;
+  height: 50px;
+  font-size: 2rem;
+}
+.search h3 {
+  margin: 0;
+  margin-right: 5px;
+  padding: 0;
+  font-size: 2rem;
+}
+.search button {
+  height: 55px;
+  width: 124px;
+
+  border: none;
+
+  background-color: #40b72b;
+}
+.navbar p {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.content-response {
+  border: 1px black solid;
+  border-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 80vh;
+  width: 90%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  scrollbar-width: none;
+}
+.container-response {
+  display: flex;
+
+  justify-content: end;
+  align-items: center;
+}
+.container-content .content-response .text-response {
+  background-color: #fdfdfd;
+  padding: 20px;
+  margin: 50px;
+  width: 900px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: end;
+}
+.text-response p {
+  font-size: 2rem;
+  word-wrap: break-word;
+  width: 900px;
+}
+.segitiga-response {
+  height: 0;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #40b72b;
+  margin-left: 30px;
+}
+.navbar h1:hover {
+  cursor: pointer;
+}
+.answer {
+  background-color: #fdfdfd;
+  width: 900px;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 30px;
+}
+.answer p {
+  font-size: 2rem;
+  text-align: center;
+  word-wrap: break-word;
+  width: 900px;
+}
+.container-about {
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+.container-about .content-about {
+  color: #5903a8;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+.menu-ai {
+  position: absolute;
+  top: 272px;
+  left: 68px;
+  height: 300px;
+  width: 600px;
+  border: 2px black solid;
+}
+.bars h3:hover {
+  cursor: pointer;
+}
+.cekkodam-bg {
+  height: 100vh;
+  background-color: black;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsiJ7nIrg0mCRU2pB1z72i2WNHeBJfFTtiaQ&s");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 120%;
+  background-position: center;
+}
+.cekkodam {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px black solid;
+}
+.form label {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.form input {
+  width: 600px;
+  height: 50px;
+  font-size: 2rem;
+}
+.form button {
+  width: 608px;
+  height: 50px;
+  font-size: 2rem;
+  background-color: blue;
+  border: none;
+  color: white;
+}
+
+.container-bg {
+  background-color: blue;
+}
+.container-form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
