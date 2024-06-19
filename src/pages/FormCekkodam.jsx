@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { IoIosArrowBack } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 const FormCekkodam = () => {
   const [name, setName] = useState("");
+  const navigate = useNavigate();
   const handleEnter = () => {
-    window.location.href = "/cekkodam?name=" + name;
+    navigate("/cekkodam?name=" + name);
     console.log(name);
   };
   return (
