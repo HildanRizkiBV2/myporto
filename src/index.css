@@ -233,18 +233,31 @@ span:hover {
   background-color: black;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsiJ7nIrg0mCRU2pB1z72i2WNHeBJfFTtiaQ&s");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 120%;
+  background-size: cover;
   background-position: center;
+}
+.container-cekkodam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cekkodam {
   color: white;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 3px;
+}
+.cekkodam h1,
+h3 {
+  text-align: center;
+  opacity: 1;
 }
 .form {
   display: flex;
