@@ -10,7 +10,23 @@ const CekKodam = () => {
       setName(name);
     }
   }, []);
-  const arr = ["ratu iblis"];
+  const arr = [
+    "ratu iblis",
+    "ambatron",
+    "katak bejir",
+    "ulat sagu",
+    "srigala hytam",
+    "kuda poni",
+    "sapi dol",
+    "lambat",
+    "kumar",
+    "brokadot",
+    "sigma skibidi",
+    "kei cenat",
+    "ikan badut",
+    "lohan skibidi",
+    "gajah india",
+  ];
 
   useEffect(() => {
     const kodamnya = arr[Math.floor(Math.random() * arr.length)];

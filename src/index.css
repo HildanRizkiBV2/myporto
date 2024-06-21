@@ -260,6 +260,7 @@ h3 {
   opacity: 1;
 }
 .form {
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -270,17 +271,21 @@ h3 {
   background-color: white;
   border: 2px black solid;
 }
+.form h1 {
+  font-size: 1rem;
+  font-weight: bolder;
+}
 .form label {
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bolder;
 }
 .form input {
-  width: 600px;
+  width: 200px;
   height: 50px;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .form button {
-  width: 608px;
+  width: 200px;
   height: 50px;
   font-size: 2rem;
   background-color: blue;
@@ -291,8 +296,13 @@ h3 {
 .container-bg {
   background-color: blue;
 }
-.container-form {
+.container-formkodam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+}
+.container-form {
   display: flex;
   justify-content: center;
   align-items: center;
